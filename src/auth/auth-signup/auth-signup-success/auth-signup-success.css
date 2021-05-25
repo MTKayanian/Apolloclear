@@ -1,0 +1,113 @@
+.HelloSignin_wrapper{
+    display: flex;
+    background: #ffffff;
+    height: 100vh;
+}
+
+
+.HelloSignin_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+.HelloSignin_right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HelloSignin_heading{
+    font-weight: bold;
+font-size:2.3rem;
+line-height: 57px;
+color: #0FB046;
+}
+.HelloSignin_text{
+font-weight: bold;
+font-size: 1.4rem;
+line-height: 39px;
+color: #4D5B61;
+}
+.SignUpNow_button {
+    border: 1px solid #424242;
+    box-sizing: border-box;
+    background: #545961;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.SignUpNow_button p {
+    align-self: center;
+}
+/* for new button styling */
+.b-success-new {
+    background: #2B3038;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #2B3038;
+  }
+  
+  .b-success-new:hover {
+    background:#555C68;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #555C68;
+  }
+  .b-success-new:active {
+    background:#0F0F10;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #0F0F10;
+  }
+  .b-success-new:disabled{
+    background:#CDCDCD;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #CDCDCD;
+  }

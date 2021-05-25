@@ -1,0 +1,226 @@
+.SignUpCaptch_wrapper {
+  background-color: #ffffff;
+}
+.SignUpCaptch_content {
+  color: #52616b;
+}
+.SignUpCaptch_img {
+  height: 100%;
+  width: 100%;
+}
+.SignUpCaptch_left {
+  font-size: 0.825rem;
+}
+.SignUpCaptch_heading {
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 120px;
+  color: #1d2b39;
+}
+.SignUpCaptch_left > img {
+  margin-top: 50px;
+}
+.SignUpCaptch_text {
+  text-align: justify;
+  padding: 0;
+  margin: 20px 0 30px;
+}
+.SignUpCaptch_bottom {
+  display: flex;
+}
+.SignUpCaptch_bottom a {
+  color: #0e7be4;
+}
+.SignUpCaptch_bottom p {
+  margin-top: 0px;
+}
+
+.SignUpNowBus_button {
+  border: 1px solid #424242;
+  box-sizing: border-box;
+  color: #545961;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  min-width: 136px;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.SignUpNowBus_button:hover {
+  border: 1px solid #424242;
+  box-sizing: border-box;
+  color: #ffffff;
+  background: #545961;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  min-width: 136px;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.SignUpCaptch_radio input[type='radio']:checked ~ .check {
+  border: 2px solid #0e7be4;
+}
+
+.SignUpCaptch_radio input[type='radio']:checked ~ .check::before {
+  background: #0e7be4;
+}
+
+.SignUpCaptch_main {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Hide the default checkbox */
+
+input[type='checkbox'] {
+  visibility: hidden;
+}
+
+.SignUpCaptch_geekmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ecebed;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+
+/* Specify the background color to be 
+  shown when hovering over checkbox */
+
+.SignUpCaptch_main:hover input ~ .SignUpCaptch_geekmark {
+  background-color: #ffffff;
+}
+
+/* Specify the background color to be 
+  shown when checkbox is active */
+
+.SignUpCaptch_main input:active ~ .SignUpCaptch_geekmark {
+  background-color: #ffffff;
+}
+
+/* Specify the background color to be 
+  shown when checkbox is checked */
+
+.SignUpCaptch_main input:checked ~ .SignUpCaptch_geekmark {
+  background-color: #ffffff;
+}
+
+/* Checkmark to be shown in checkbox */
+
+/* It is not be shown when not checked */
+
+.SignUpCaptch_geekmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Display checkmark when checked */
+
+.SignUpCaptch_main input:checked ~ .SignUpCaptch_geekmark:after {
+  display: block;
+}
+
+/* Styling the checkmark using webkit */
+
+/* Rotated the rectangle by 45 degree and  
+  showing only two border to make it look 
+  like a tickmark */
+
+.SignUpCaptch_main .SignUpCaptch_geekmark:after {
+  left: 8px;
+  bottom: 5px;
+  width: 6px;
+  height: 12px;
+  border: 1px solid #2a95fd;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+@media only screen and (max-width: 991px) {
+  .SignUpCaptch_left > img {
+    margin-top: 20px;
+  }
+  .SignUpCaptch_heading {
+    padding-top: 50px;
+  }
+}
+/* for new button styling */
+.b-captcha-new {
+  background: #2B3038;
+border-radius: 20px;
+height:40px;
+min-width: 120px;
+justify-content:center;
+align-items:center;
+color:#fff;
+font-size:13px;
+font-weight:700;
+text-transform: uppercase;
+cursor: pointer;
+padding:8px 15px;
+border: 1px solid #2B3038;
+}
+
+.b-captcha-new:hover {
+  background:#555C68;
+border-radius: 20px;
+height:40px;
+min-width: 120px;
+justify-content:center;
+align-items:center;
+color:#fff;
+font-size:13px;
+font-weight:700;
+text-transform: uppercase;
+cursor: pointer;
+padding:8px 15px;
+border: 1px solid #555C68;
+}
+.b-captcha-new:active {
+  background:#0F0F10;
+border-radius: 20px;
+height:40px;
+min-width: 120px;
+justify-content:center;
+align-items:center;
+color:#fff;
+font-size:13px;
+font-weight:700;
+text-transform: uppercase;
+cursor: pointer;
+padding:8px 15px;
+border: 1px solid #0F0F10;
+}
+.b-captcha-new:disabled{
+  background:#CDCDCD;
+border-radius: 20px;
+height:40px;
+min-width: 120px;
+justify-content:center;
+align-items:center;
+color:#fff;
+font-size:13px;
+font-weight:700;
+text-transform: uppercase;
+cursor: pointer;
+padding:8px 15px;
+border: 1px solid #CDCDCD;
+}

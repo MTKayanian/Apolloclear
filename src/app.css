@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+html,body{height: 100%;background:#F4F8FC; }
+.bradcrumb{ padding: 40px 40px 30px 30px;background: #F4F8FC;}
+.bradcrumb ul{margin: 0;}
+.bradcrumb ul li{position: relative;display: inline-block;color: #FF891D;font-weight: 600;}
+.bradcrumb ul li a{color: #7F909C;font-weight: 600;}
+.bradcrumb ul li+li:before{display: inline-block;
+  padding-right: .5rem;
+  color: #6c757d;
+  content: "/";}
+.bradcrumb ul li+li {
+    padding-left: .5rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 64px;
+  height: 64px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-container{
+  display:none;
+  min-height: 100vh;
+  position: fixed;
+  width: 100vw;
+  z-index: 999999;
+  background-color:rgba(41, 37, 37, 0.466);
+  /* position: absolute; */
+  top:0;
+  bottom: 0
+  /* left: 50%; */
+  /* transform: translate(-50%,-50%); */
+}
+@media only screen and (max-width: 767px){
+  .bradcrumb { padding: 20px 10px 15px 10px;}
+}

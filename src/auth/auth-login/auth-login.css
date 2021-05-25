@@ -1,0 +1,383 @@
+/* .m-image{
+	max-height: 100vh;
+} */
+
+.body-class {
+  background: #fff;
+}
+.c-input {
+  visibility: visible;
+}
+
+.t-input {
+  width: 15em;
+  border: none;
+}
+.t-input input {
+  width: 98%;
+}
+.p-input-container {
+  width: 18em;
+  border: 1px solid #1cc0d5;
+  border-radius: 5px;
+  background: #fff;
+}
+.remember_txt {
+  font-size: 11px;
+  line-height: 18px;
+  color: #b6bdbf;
+  padding-left: 25px;
+}
+.remamber_row {
+  width: 18em;
+}
+.p-input {
+  width: 14.7em !important;
+  border: none;
+}
+
+.p-input:focus {
+  outline: none;
+}
+
+.t-input:focus {
+  outline: none;
+}
+/* old button style */
+/* .b-login-new {
+  border: 1px solid #424242 !important;
+  background: #ffffff;
+  color: #545961;
+  border-radius: 3px;
+  text-transform: uppercase;
+  width: 8.5em;
+  border: none;
+  padding: 8px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.b-login-new:hover {
+  border: 1px solid #424242 !important;
+  background: #545961;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  width: 8.5em;
+  border: none;
+  padding: 8px 15px;
+  font-weight: bold;
+  cursor: pointer;
+} */
+.b-login-new {
+  background: #2B3038;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+  margin-top: 15px ;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #2B3038;
+  
+}
+
+.b-login-new:hover {
+  background:#555C68;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+  margin-top: 15px ;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #555C68;
+}
+.b-login-new:active {
+  background:#0F0F10;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+  margin-top: 15px ;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #0F0F10;
+}
+.b-login-new:disabled{
+  background:#CDCDCD;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+  margin-top: 15px ;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #CDCDCD;
+}
+.b-signup {
+  background: #fff;
+  border: 1px solid #545961;
+  border-radius: 3px;
+  color: #545961 !important;
+  text-transform: uppercase;
+}
+.s-text {
+  font-size: 0.8125rem;
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+	font-weight:600;
+}
+.s-texthyper {
+  font-size: 0.8125rem;
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color:#2F80ED;
+	font-weight:600;
+}
+.s-texthyper:hover{
+	color: #61A2FA;
+	text-decoration:underline;
+}
+/*on press*/
+.s-texthyper:active{
+	color:#005BD7;
+	text-decoration:underline;
+}
+/*disable*/
+.s-texthyper:disabled{
+	color: #B1C5E0;
+	text-decoration:underline;
+}
+
+.m-text {
+  font-size: 0.8125rem;
+  text-decoration: none;
+}
+
+.b-signup {
+  width: 8.5em;
+  padding: 8px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ext-login {
+  margin-top: 5% !important;
+}
+
+.p-icon {
+  padding: 0px 30px;
+}
+
+.e-icon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.SignIn_main {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.SignIn_main input {
+  display: none;
+}
+
+/* Hide the default checkbox */
+
+input[type='checkbox'] {
+  visibility: hidden;
+}
+
+.SignIn_geekmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #ffffff;
+  border: 1px solid #ecebed;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 2px;
+}
+
+/* Specify the background color to be 
+  shown when hovering over checkbox */
+
+.SignIn_main:hover input ~ .SignIn_geekmark {
+  background-color: #ffffff;
+}
+
+/* Specify the background color to be 
+  shown when checkbox is active */
+
+.SignIn_main input:active ~ .SignIn_geekmark {
+  background-color: #ffffff;
+}
+
+/* Specify the background color to be 
+  shown when checkbox is checked */
+
+.SignIn_main input:checked ~ .SignIn_geekmark {
+  background-color: #ffffff;
+}
+
+/* Checkmark to be shown in checkbox */
+
+/* It is not be shown when not checked */
+
+.SignIn_geekmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Display checkmark when checked */
+
+.SignIn_main input:checked ~ .SignIn_geekmark:after {
+  display: block;
+}
+
+/* Styling the checkmark using webkit */
+
+/* Rotated the rectangle by 45 degree and  
+  showing only two border to make it look 
+  like a tickmark */
+
+.SignIn_main .SignIn_geekmark:after {
+  left: 5px;
+  bottom: 3px;
+  width: 6px;
+  height: 12px;
+  border: 1px solid #2a95fd;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.last-p {
+  position: relative;
+  width: 495.62px;
+  height: 56px;
+  margin-top: 5%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #646464;
+}
+/*new css*/
+.p-signin-frm {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+.l-form {
+  margin-left: 20%;
+}
+.e-message-popup {
+  max-width: 368px;
+  width: 100%;
+  background: #fafffe;
+  box-shadow: 2px 3px 5px rgba(1, 0, 0, 0.15);
+  border-radius: 2px;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.e-message-left {
+  background: rgba(233, 195, 97, 0.2);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+}
+.e-message-right {
+  padding-top: 10px;
+  max-width: 60%;
+}
+.e-message-right p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.26px;
+  color: #7c8495;
+  margin-bottom: 8px;
+  max-width: 197px;
+}
+.e-message-right p span {
+  font-style: italic;
+  font-weight: 700;
+}
+.cross-btn {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+.e-message-learn-more {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ff881e !important;
+}
+
+.sign-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0084f8;
+}
+@media only screen and (max-width: 768px) {
+  .last-p {
+    width: 100%;
+  }
+  .l-form {
+    margin-left: 0px;
+  }
+}

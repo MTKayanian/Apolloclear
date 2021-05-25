@@ -1,0 +1,57 @@
+ .ResetRcgYrCap_wrapper{
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.ResetRcgYrCap_logo{
+    transform: translate(140%,130%);
+}
+.ResetRcgYrCap_right{
+padding: 0;
+}
+.ResetRcgYrCap_left{
+    transform: translate(30%,100%);
+}
+.ResetRcgYrCap_rImag{
+    position: absolute;
+    padding: 0;
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    transform : translate(-115%, -50%);
+}
+.ResetRcgYrCap_rMain{
+    height: 100vh;
+
+}
+.ResetRcgYrCap_heading{
+font-weight: bold;
+font-size: 1.3rem;
+line-height: 34px;
+text-transform: uppercase;
+color: #424242;
+}
+.ResetRcgYrCap_text{
+    width: 65%;
+line-height: 23px;
+color: #424242;
+}
+.ResetRcgYrCap_button {
+    border: 1px solid #424242;
+    box-sizing: border-box;
+    background: #ffffff;
+    color: #545961;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ResetRcgYrCap_button p {
+    align-self: center;
+}

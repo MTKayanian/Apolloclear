@@ -1,0 +1,61 @@
+{
+  "name": "ApolloClear",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "autocomplete": "0.0.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "classname": "0.0.0",
+    "cross-env": "^7.0.2",
+    "emoji-picker-react": "^3.1.7",
+    "env-cmd": "^8.0.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.19",
+    "react": "^16.9.0",
+    "react-autocomplete": "^1.8.1",
+    "react-bootstrap": "^1.0.1",
+    "react-date-picker": "^7.8.1",
+    "react-datepicker": "^2.16.0",
+    "react-dom": "^16.9.0",
+    "react-file-drop": "^0.2.8",
+    "react-google-recaptcha": "^2.0.1",
+    "react-icons": "^3.7.0",
+    "react-input-color": "^3.0.0",
+    "react-phone-input": "^1.2.1",
+    "react-phone-input-2": "^2.12.1",
+    "react-phone-number-input": "^2.4.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-slick": "^0.25.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^8.17.4",
+    "sweetalert2-react": "^0.8.3",
+    "window-date-picker": "^1.0.1"
+  },
+  "scripts": {
+    "start": "cross-env PORT=404 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

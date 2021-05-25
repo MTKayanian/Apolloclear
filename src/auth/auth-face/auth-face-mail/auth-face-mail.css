@@ -1,0 +1,68 @@
+ .CheckYourMail_wrapper{
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.CheckYourMail_logo{
+    transform: translate(140%,130%);
+}
+.CheckYourMail_right{
+padding: 0;
+}
+.CheckYourMail_left{
+    transform: translate(30%,110%);
+}
+.CheckYourMail_rImag{
+    position: absolute;
+    padding: 0;
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    transform : translate(-115%, -50%);
+}
+.CheckYourMail_rMain{
+    height: 100vh;
+
+}
+.CheckYourMail_heading{
+font-weight: bold;
+font-size: 1.3rem;
+line-height: 34px;
+text-transform: uppercase;
+color: #424242;
+}
+.CheckYourMail_text{
+    width: 65%;
+line-height: 23px;
+color: #424242;
+}
+.CheckYourMail_text a{
+    font-size: 1rem;
+    color: #087BE0;
+    cursor: pointer;
+    font-weight: normal;
+}
+.CheckYourMail_link a{
+    font-size: 1.1rem;
+    line-height: 31px;
+    font-weight: bold;
+}
+.CheckYourMail_button {
+    border: 1px solid #424242;
+    box-sizing: border-box;
+    background: #ffffff;
+    color: #545961;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.CheckYourMail_button p {
+    align-self: center;
+}

@@ -1,0 +1,232 @@
+.m-image {
+  height: 100vh;
+}
+
+.body-class {
+  background: #fff;
+}
+
+.p-input-container {
+  width: 18em;
+  border: 1px solid #1cc0d5;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.p-input {
+  width: 16.5em;
+  border: none;
+}
+
+.p-input:focus {
+  outline: none;
+}
+
+.b-signup {
+  background: #fff;
+  border: 1px solid #545961;
+  border-radius: 3px;
+}
+
+.s-text-my {
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+
+.b-login {
+  width: 8.5em;
+  border: 1px solid #424242;
+  background: #ffffff;
+  color: #545961;
+  height: 2.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.b-login:hover {
+  width: 8.5em;
+  color: #fff;
+  border: none;
+  height: 2.5em;
+  font-weight: bold;
+  cursor: pointer;
+  background: #545961;
+  border-radius: 3px;
+}
+
+.b-signup {
+  width: 8.5em;
+  height: 2.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.otp-error {
+  border: none;
+  background: #d9efd8;
+}
+
+.s-select {
+  background: url('../static/images/chevron-small-down.png') no-repeat;
+  appearance: none;
+  padding-right: 1.7em;
+  border: none;
+  border-right: 1px solid #1cc0d5;
+  height: 2.8em;
+  background-position: 90% 50%;
+  cursor: pointer;
+  padding-left: 1em;
+}
+
+.s-select:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.n-input {
+  width: 13.7em;
+  padding-left: 2em;
+  border: none;
+}
+
+.n-input:focus {
+  outline: none;
+}
+
+.verification-popup-input {
+  width: 3.5em;
+  margin-right: 1em;
+  padding: 0.8em 0.5em;
+  border-radius: 10px;
+  border: 1px solid #1cc0d5;
+  text-align: center;
+}
+
+.verification-popup-input:focus {
+  outline: none;
+}
+
+.verification-popup-input-error {
+  width: 3.5em;
+  margin-right: 1em;
+  padding: 0.8em 0.5em;
+  border-radius: 10px;
+  border: 1px solid #ff0725;
+  text-align: center;
+}
+
+.verification-popup-input-error:focus {
+  outline: none;
+}
+
+.verification-otp {
+  width: 178px;
+  height: 26px;
+  left: 153px;
+  top: 300px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 163.42%;
+  /* or 26px */
+  display: flex;
+  align-items: center;
+  color: #0084f8;
+}
+
+.sub-text {
+  font-size: 14px;
+  /* identical to box height, or 23px */
+  color: #95a0a9;
+}
+/* for new button styling */
+.b-verifyotp-new {
+  background: #2B3038;
+border-radius: 20px;
+height:40px;
+min-width: 120px;
+margin-top: 0;
+justify-content:center;
+align-items:center;
+color:#fff;
+font-size:13px;
+font-weight:700;
+text-transform: uppercase;
+cursor: pointer;
+padding:8px 15px;
+border: 1px solid #2B3038;
+}
+
+.b-verifyotp-new:hover {
+  background:#555C68;
+border-radius: 20px;
+height:40px;
+min-width: 120px;
+justify-content:center;
+align-items:center;
+color:#fff;
+font-size:13px;
+font-weight:700;
+text-transform: uppercase;
+cursor: pointer;
+padding:8px 15px;
+border: 1px solid #555C68;
+}
+.b-verifyotp-new:active {
+  background:#0F0F10;
+border-radius: 20px;
+height:40px;
+min-width: 120px;
+justify-content:center;
+align-items:center;
+color:#fff;
+font-size:13px;
+font-weight:700;
+text-transform: uppercase;
+cursor: pointer;
+padding:8px 15px;
+border: 1px solid #0F0F10;
+}
+.b-verifyotp-new:disabled{
+  background:#CDCDCD;
+border-radius: 20px;
+height:40px;
+min-width: 120px;
+justify-content:center;
+align-items:center;
+color:#fff;
+font-size:13px;
+font-weight:700;
+text-transform: uppercase;
+cursor: pointer;
+padding:8px 15px;
+border: 1px solid #CDCDCD;
+}
+/* for hyperlink styling */
+.s-texthyper {
+  font-size: 0.8125rem;
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color:#2F80ED;
+    font-weight:600;
+}
+/*on hover*/
+.s-texthyper:hover{
+    color: #61A2FA;
+    text-decoration:underline;
+}
+/*on press*/
+.s-texthyper:active{
+    color:#005BD7;
+    text-decoration:underline;
+}
+/*disable*/
+.s-texthyper:disabled{
+    color: #B1C5E0;
+    text-decoration:underline;
+}

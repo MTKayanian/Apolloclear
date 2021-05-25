@@ -1,0 +1,475 @@
+.SignUpNowBus_heading {
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 33px;
+  color: #1d2b39;
+  text-transform: uppercase;
+}
+
+.SignUpNowBus_inputs select {
+  color: #91a1bb;
+  border-radius: 6px;
+  height: 40px;
+  width: 100%; 
+  max-width: 240px; 
+  min-width: 240px; 
+  padding: 8px 0px 0px 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  line-height: 23px;
+  background: url('../../static/images/arrow.png') no-repeat;
+  background-size: 12px;
+  /* font-size: 0.6rem; */
+  background-position: 93%;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.SignUpNowBus_inputs_date {
+  height: 40px;
+  width: 150%;
+  max-width: 240px;
+  min-width: 240px;
+  background: #ffffff;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  color: #91a1bb;
+  border: none;
+  outline: none;
+}
+
+.SignUpNowBus_inputs_date__error {
+  height: 40px;
+  width: 115%;
+  max-width: 240px;
+  min-width: 240px;
+  background: #ffffff;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  color: #91a1bb;
+  border: #fbcdcd 2px solid;
+  outline: none;
+}
+
+.SignUpNowBus_inputs {
+  height: 40px;
+   width: 100%;
+   max-width: 240px; 
+   min-width: 240px; 
+  background: #ffffff;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  color: #91a1bb;
+  border: none;
+  outline: none;
+}
+.SignUpNowBus_input__error {
+  height: 40px;
+  width: 100%;
+  max-width: 240px;
+  min-width: 240px;
+  background: #ffffff;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  color: #91a1bb;
+  border: #fbcdcd 2px solid;
+  outline: none;
+}
+
+.SignUpNowBus_input__error select {
+  height: 40px;
+  /* width: 45%;*/
+  max-width: 240px;
+  background: #ffffff;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  color: #91a1bb;
+  border: #fbcdcd 2px solid;
+  outline: none;
+}
+
+.SignUpNowBus_inputs ::placeholder {
+  color: #91a1bb;
+}
+
+.SignUpNowBus_radio {
+  display: flex;
+}
+/* for date picker css */
+input[type='date'] {
+  outline: none;
+}
+
+input[type='date']::-webkit-clear-button {
+  font-size: 18px;
+  height: 40px;
+  display: none;
+  position: relative;
+}
+
+input[type='date']::-webkit-inner-spin-button {
+  height: 40px;
+  display: none;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  font-size: 20px;
+  margin-right: 15px;
+  opacity: 1;
+  color: white;
+  background: url('../../static/images/date.png') no-repeat;
+}
+
+/*.SignUpNowBus_inputs_2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}*/
+
+
+.SignUpNowBus_bottom_text {
+  align-items: flex-start;
+  color: #91A1BB;
+  font-size: 0.825rem;
+  margin-top: -10px;
+}
+.SignUpNowBus_bottom_text1 {
+  margin-top: 5px;
+  color: #91a1bb;
+}
+.SignUpNowBus_bottom_text p {
+  margin-top: 2px;
+}
+
+.SignUpNowBus_bottom_text a {
+  color: #2a95fd;
+  cursor: pointer;
+}
+
+.SignUpNowBus_eye {
+  height: 40px;
+  width: 100%;
+  max-width: 240px;
+  min-width: 240px;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.SignUpNowBus_eye input {
+  border: none;
+}
+
+.SignUpNowBus_eye_error {
+  height: 40px;
+  width: 100%;
+  max-width: 240px;
+  min-width: 240px;
+  display: flex; 
+  background: #ffffff;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border: #fbcdcd 2px solid;
+}
+.SignUpNowBus_eye_error input {
+  border: none;
+  margin-left: 10px;
+}
+.SignUpNowBus_eye_error img {
+  margin-right: 12px;
+  /*width: 8%;*/
+  cursor: pointer;
+  height: 10px;
+  position: absolute;
+  right: 10px;
+}
+.SignUpNowBus_eye img {
+  margin-right: 12px;
+  /*width: 8%;*/
+  cursor: pointer;
+  height: 10px;
+  position: absolute;
+  right: 10px;
+}
+.SignUpNowBus_eye input {
+  /* margin-right: 12px; */
+  width: 100%;
+  margin-left: 10px;
+  /* margin: auto; */
+}
+/* old button style */
+/* .SignUpBus_button {
+  border: 1px solid #424242;
+  box-sizing: border-box;
+  background: #ffffff;
+  color: #545961;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  padding: 8px 15px;
+  min-width: 136px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.SignUpBus_button:hover {
+  border: 1px solid #424242;
+  box-sizing: border-box;
+  background: #545961;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  padding: 8px 15px;
+  min-width: 136px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+} */
+.SignUpNowBus_radio input[type='radio']:checked ~ .check {
+  border: 2px solid #0e7be4;
+}
+
+.SignUpNowBus_radio input[type='radio']:checked ~ .check::before {
+  background: #0e7be4;
+}
+
+.SignUpNowBus_main {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Hide the default checkbox */
+
+input[type='checkbox'] {
+  visibility: hidden;
+}
+
+.SignUpNowBus_geekmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ecebed;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+
+/* Specify the background color to be
+  shown when hovering over checkbox */
+
+.SignUpNowBus_main:hover input ~ .SignUpNowBus_geekmark {
+  background-color: #ffffff;
+}
+
+/* Specify the background color to be
+  shown when checkbox is active */
+
+.SignUpNowBus_main input:active ~ .SignUpNowBus_geekmark {
+  background-color: #ffffff;
+}
+
+/* Specify the background color to be
+  shown when checkbox is checked */
+
+.SignUpNowBus_main input:checked ~ .SignUpNowBus_geekmark {
+  background-color: #ffffff;
+}
+
+/* Checkmark to be shown in checkbox */
+
+/* It is not be shown when not checked */
+
+.SignUpNowBus_geekmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Display checkmark when checked */
+
+.SignUpNowBus_main input:checked ~ .SignUpNowBus_geekmark:after {
+  display: block;
+}
+
+/* Styling the checkmark using webkit */
+
+/* Rotated the rectangle by 45 degree and
+  showing only two border to make it look
+  like a tickmark */
+
+.SignUpNowBus_main .SignUpNowBus_geekmark:after {
+  left: 8px;
+  bottom: 5px;
+  width: 6px;
+  height: 10px;
+  border: 1px solid #2a95fd;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*error message*/
+.error-msg {
+  position: absolute;
+  top: -42px;
+  background: #2a95fd;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 190.23%;
+  color: #ffffff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  left: 0;
+  text-indent: 0px;
+}
+.error-msg:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #2a95fd;
+  position: absolute;
+  bottom: -7px;
+  left: 19px;
+}
+
+.SignUpNow_phoneNo{
+  border: none !important;
+  max-width: 240px;
+}
+
+.SignUpNow_phoneNo_error{
+border: #fbcdcd 2px solid !important;
+max-width: 240px;
+}
+.SignUpNow_phoneNo_dropDown {
+border: none !important;
+}
+.SignUpNow_phoneNo_dropDown_error{
+border: #fbcdcd 2px solid !important;
+}
+/* for hyperlink styling */
+.s-texthyper {
+  font-size: 0.8125rem;
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color:#2F80ED;
+	font-weight:600;
+}
+/*on hover*/
+.s-texthyper:hover{
+	color: #61A2FA;
+	text-decoration:underline;
+}
+/*on press*/
+.s-texthyper:active{
+	color:#005BD7;
+	text-decoration:underline;
+}
+/*disable*/
+.s-texthyper:disabled{
+	color: #B1C5E0;
+	text-decoration:underline;
+}
+/* for new button styling */
+.b-signup-new {
+  background: #2B3038;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  margin-top: 15px ;
+  margin-bottom: 10px ;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #2B3038;
+}
+
+.b-signup-new:hover {
+  background:#555C68;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #555C68;
+}
+.b-signup-new:active {
+  background:#0F0F10;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #0F0F10;
+}
+.b-signup-new:disabled{
+  background:#CDCDCD;
+  border-radius: 20px;
+  height:40px;
+  min-width: 120px;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	font-size:13px;
+  font-weight:700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding:8px 15px;
+  border: 1px solid #CDCDCD;
+}
