@@ -1,0 +1,313 @@
+@media(min-width:1660px){
+	.content-head .left-content {
+    margin-right: 21%;
+	}
+}
+@media(max-width:1024px){
+	.left-source-list{
+		padding: 20px 10px;
+	}
+	.left-source-list ul li{
+		font-size:12px;
+	}
+	.left-source-list ul li span{
+		margin-right: 15px;
+	}
+	.individual-user-dt {
+    width: 70%;
+	}
+
+
+}
+@media(max-width:991px){
+	.circlesteps {
+    width: 95px;
+    height: 95px;
+	}
+	.circlesteps::before{
+		    width: 80px;
+	}
+	.subtitle {
+    font-size: 14px;
+    line-height: 23px;
+	}
+	.kyc-aml-re ul{
+		    flex-direction: column;
+	}
+	.kyc-aml-re ul li{
+		line-height:24px;
+	}
+}
+@media(max-width:768px){
+
+/*Business KYC*/
+li.nav-item {
+    width: 100%;
+}
+.document-tab li a {
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+.business-profile, .btnLightBlue .btn {
+    width: 100%;
+}
+.btnLightBlue .btn {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btnLightBlue {
+    display: block;
+}
+.sub-head span{
+	width:auto;
+}
+/*documentation*/
+.left-source-list {
+    margin-left: 15px;
+    margin-right: 15px;
+	margin-bottom:15px;
+}
+.left-source-list{
+		padding:27px 17px;
+	}
+	.left-source-list ul li{
+		font-size:14px;
+	}
+	.left-source-list ul li span{
+		margin-right: 19px;
+	}
+	.update-popup{
+		margin-top:0px;
+	}
+}
+
+@media(max-width:767px){
+	.right-search {
+    display: flex;
+    margin-top: 10px;
+}
+
+	.menu-wrap{
+	display: block;
+    position: absolute;
+    left: auto;
+    top: 0;
+    right: 10%;
+
+}
+
+	.token-balance-bttm p {
+    font-size: 10px;
+	}
+	.chart-head {
+    display: block;
+	}
+	.transaction-price {
+		bottom: 142px;
+	}
+
+	.overview-head{
+		    display: flex;
+	}
+	.user-pic {
+    font-size: 18px;
+	}
+	.edit-pro a.edit-info-btn {
+    font-size: 11px;
+	width:auto;
+	}
+	.user-profile .dob-input {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.agree-bttn {
+    width: 100%;
+    display: flex;
+}
+.profile-data,.business-account{
+	margin-top:15px;
+}
+
+.search-form input.form-control{margin-left: 45px;}
+
+	
+/*Business KYC*/
+.fancyInput input, .fancyInput select{
+	width:100%;
+}
+.input-txt-d {
+    flex-direction: column;
+}
+.left-source-list{
+	margin-bottom:20px;
+}
+.kyc-approval{
+	display:block;
+	text-align:center;
+	 margin-top: 30px;
+}
+.approve-right {
+    margin-left: auto;
+    margin-top: 20px;
+}
+.completed span{
+	display:block;
+	margin-top:30px;
+}
+.btm-btn-cls {
+    display: block;
+}
+.doc-continue-btn{
+	    max-width: 149px;
+}
+.save-doc {
+    margin-top: 20px;
+}
+.btnLight {
+    width: 100%;
+}
+.go-sub-cls span {
+    display: block;
+    margin-right: 0;
+    margin-top: 20px;
+}
+/*individual kyc*/
+.details-left {
+    width: 35%;
+}
+.left-source-list {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.uploaded-files {
+    margin-top: 15px;
+}
+.checklist-doc-right {
+    margin-top: 20px;
+}
+.beforeline {
+    display: inline-block;
+    width: 29.38%;
+}
+.circlesteps::before {
+    width: 107px;
+}
+.removeline:before{
+	width:0px;
+}
+.card-main{
+	flex-direction:column;
+}
+.kyc-requirement {
+    margin-top: 0;
+}
+.subh1 {
+    margin-bottom: 15px;
+}
+}
+
+@media(max-width:480px){
+	
+
+.submit-btn.btn,.close-ac .cancl-btn.btn{
+	width:100%;
+	margin-bottom:15px;
+}
+	.mailinput,.mailinput input{
+		width:100%;
+	}
+	.ac-info ul li div{
+		width: 43%;
+	}
+	.user-details ul li {
+    justify-content: space-between;
+	}
+	.user-details ul li span{
+		display:block;
+	}
+	.pro-save span{
+		display: inline-block;
+	}
+	.btnLightBlack .btn{
+		margin-bottom:20px;
+	}
+	.upld-btn.btn,.cancl-btn.btn{
+		width:100%;
+		margin-bottom:15px;
+	}
+	.lyc-lft-sect{
+		margin-right:0px;
+	}
+	.usr-phone-update .edit-left {
+    margin-bottom: 15px;
+	}
+
+}
+@media(max-width: 375px){
+	.lyc-lft-sect{
+		    padding: 80px;
+	}
+	.approve-right p a{
+		font-size: 14px;
+		color: #FFFFFF;
+		padding: 17px 18px;
+	}
+		.individual-user-dt {
+    width: 100%;
+    padding-left: 0!important;
+    margin-top: 20px;
+}
+.usr-phone-no span:nth-child(1) {
+    margin-right: 0;
+}
+.edit-right span{
+	    display: block;
+    margin-top: 10px;
+}
+
+}
+
+@media(max-width: 325px){
+
+
+	img.upload-pic {
+    /* width: 72px;
+    height: 57px; */
+    border-radius: 50%;
+}
+.fs-16{
+	    font-size: 14px;
+}
+.enable-right {
+    max-width: 100%;
+	margin-top:20px;
+}
+.user-disabled-btn .btn,.btnLightBlack .btn{
+	margin-bottom:20px;
+}
+.lyc-lft-sect {
+    padding: 59px;
+}
+.individual-acc-dt ul li span:nth-child(1),.individual-acc-dt ul li span:nth-child(2) {
+    font-size: 12px;
+}
+.circlesteps img{
+	    max-width: 35px;
+}
+.circlesteps {
+    width: 70px;
+    height: 70px;
+}
+.circlesteps::before {
+    width: 74px;
+	right: 57px;
+}
+.removeline:before {
+    width: 0px;
+}
+.heading1{
+	font-size:14px;
+}
+}

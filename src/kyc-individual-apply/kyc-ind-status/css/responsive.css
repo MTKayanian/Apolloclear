@@ -1,0 +1,38 @@
+@media(max-width:768px){
+	.kyc-completed-kyc-approval{
+	display:block;
+	text-align:center;
+	 margin-top: 30px;
+}
+.kyc-completed-lyc-approve-right {
+    margin-left: 0;
+}
+.kyc-completed-lyc-lft-sect {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+}
+@media(max-width:767px){
+
+
+.kyc-completed-lyc-approve-right {
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+}
+
+
+@media(max-width: 375px){
+
+	.kyc-completed-lyc-approve-right p a{
+		font-size: 10px;
+		padding: 17px 18px;
+	}
+	
+.kyc-completed-lyc-lft-sect{
+	max-height: 260px;
+	    max-width: 260px;
+}
+}
+

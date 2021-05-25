@@ -1,0 +1,244 @@
+/*KYC-checklist*/
+/*kyc-checklist-round checkbox*/
+.kyc-checklist-checklist-doc-bg {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 40px 24px 40px 24px;
+  max-width: 886px;
+  width: 100%;
+}
+.kyc-checklist-checklist-req-doc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.kyc-checklist-checklist-doc-left h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #616161;
+  margin-bottom: 8px;
+}
+.kyc-checklist-checklist-doc-left {
+  margin-top: 20px;
+}
+.kyc-checklist-checklist-doc-left p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 170.23%;
+  color: #585858;
+  margin-bottom: 32px;
+}
+.kyc-checklist-round {
+  display: flex;
+  position: relative;
+  margin-bottom: 16px;
+}
+.kyc-checklist-round input {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+.kyc-checklist-round input:checked ~ .kyc-checklist-checkmark {
+  background-color: #fff;
+}
+.kyc-checklist-round .kyc-checklist-checkmark {
+  position: absolute;
+  top: 4px;
+  height: 18px;
+  width: 18px;
+  /* background-color: #eee; */
+  border: 1px solid #e8e9e9;
+  border-radius: 50%;
+}
+.kyc-checklist-round input:checked ~ .kyc-checklist-checkmark:after {
+  display: block;
+}
+.kyc-checklist-round .kyc-checklist-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 3px;
+  width: 4px;
+  height: 10px;
+  border: 2px solid #0fb046;
+  border-width: 0 1px 1px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.kyc-checklist-round .kyc-checklist-list-require {
+  margin-left: 30px;
+}
+.kyc-checklist-disablebtn .kyc-checklist-d-btn {
+  background: #424242;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  padding: 11px 75px;
+}
+.kyc-checklist-disablebtn .kyc-checklist-d-btn:disabled,
+.kyc-checklist-disablebtn .kyc-checklist-d-btn[disabled] {
+  background: #dddddd;
+}
+.kyc-checklist-check-error {
+  position: absolute;
+  top: -3px;
+  display: none;
+}
+.kyc-checklist-doclist-enable-popup {
+  max-width: 378px;
+  width: 100%;
+  background: #fff;
+  border-radius: 2px;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.kyc-checklist-doclist-left {
+  background: rgba(61, 189, 113, 0.1);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+}
+.kyc-checklist-doclist-right {
+  max-width: 68%;
+}
+.kyc-checklist-doclist-right p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.26px;
+  color: #f87a92;
+  margin-top: 22px;
+}
+.kyc-checklist-doclist-cross-btn {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+.kyc-checklist-doclist-learn-more {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ff881e !important;
+}
+.pink-bg {
+  background: rgba(255, 136, 30, 0.1);
+}
+/*KYC required document*/
+.required-doc-bg {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 40px 24px 40px 24px;
+  max-width: 886px;
+  width: 100%;
+}
+.kyc-req-doc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.req-doc-left h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #616161;
+  margin-bottom: 8px;
+}
+.req-doc-left {
+  margin-top: 20px;
+}
+.req-doc-left p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 170.23%;
+  color: #585858;
+  margin-bottom: 32px;
+}
+.req-doc-left ul li {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 170.23%;
+  color: #585858;
+  margin-bottom: 8px;
+}
+.instruction {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7c8495;
+  margin-top: 8px;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.instruction span {
+  color: #ff881e;
+}
+.ins-cls {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #eb5757;
+}
+.kyc-checklist-kyc-bck-btn {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 300px;
+}
+.kyc-checklist-kyc-bck-btn span a {
+  color: #424242;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+.kyc-doc-continue-btn {
+  background: #fff;
+  border: 2px solid #c6c9c8;
+  box-shadow: 0px 2px 5px rgba(83, 97, 255, 0.0534986);
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 2.35846px;
+  color: #c6c9c8;
+  max-width: 219px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kyc-doc-continue-btn:hover {
+  background: #424242;
+  border: 2px solid #424242;
+  color: #ffffff;
+}
+.button-doc {
+  margin-top: 50px;
+}
+.a {
+  color: #000 !important;
+}
+/*end*/

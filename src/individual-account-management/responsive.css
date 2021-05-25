@@ -1,0 +1,37 @@
+
+@media (max-width: 991px) {
+.altas-individual-dashboard-head-lft {
+    width: 100%;
+}
+.cap-btm,.mngmnt-btm{
+	position:relative;
+	    bottom: 0;
+
+}
+.bottm-sect {
+    max-width: 626px;
+    padding: 0px 15px;
+}
+}
+
+
+@media (max-width: 480px) {
+	.altas-individual-dashboard-commn-block h3,.altas-individual-dashboard-commn-block h3 span{
+		display:block;
+	}
+	.altas-individual-dashboard-commn-block h3 span{
+		margin:10px;
+	}
+	.bottm-sect>div {
+    width: 50%;
+    margin-top: 10px;
+}
+}
+@media (max-width: 767px) {
+	.altas-individual-dashboard-head-right {
+    margin-top: 10px;
+	}
+	.altas-individual-dashboard-head-lft{
+	width:100%;
+}
+}

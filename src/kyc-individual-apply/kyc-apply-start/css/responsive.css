@@ -1,0 +1,63 @@
+
+
+@media(max-width:991px){
+	.kyc-aml-circlesteps {
+    width: 95px;
+    height: 95px;
+	}
+	.kyc-aml-circlesteps::before{
+		    width: 80px;
+	}
+	.kyc-aml-subtitle {
+    font-size: 14px;
+    line-height: 23px;
+	}
+	.kyc-aml-re ul{
+		    flex-direction: column;
+	}
+	.kyc-aml-re ul li{
+		line-height:24px;
+	}
+}
+
+@media(max-width:768px){
+
+.kyc-aml-beforeline {
+    display: inline-block;
+    width: 29.38%;
+}
+.kyc-aml-circlesteps::before {
+    width: 107px;
+}
+.kyc-aml-card-main{
+	flex-direction:column;
+}
+.kyc-aml-kyc-requirement {
+    margin-top: 0;
+}
+.kyc-aml-subh1 {
+    margin-bottom: 15px;
+}
+}
+
+
+
+@media(max-width: 325px){
+
+
+.kyc-aml-circlesteps img{
+	    max-width: 35px;
+}
+.kyc-aml-circlesteps {
+    width: 70px;
+    height: 70px;
+}
+.kyc-aml-circlesteps::before {
+    width: 74px;
+	right: 57px;
+}
+
+.kyc-aml-kyc-aml-heading1{
+	font-size:14px;
+}
+}

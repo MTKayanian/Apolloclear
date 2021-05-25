@@ -1,0 +1,50 @@
+@media (max-width: 1200px){
+	.kyc-started-details-edit-left {
+    width: 106px;
+	}
+}
+@media (max-width: 1024px){
+.kyc-started-user-details-editing ul li{
+	    align-items: flex-start;
+    flex-direction: column;
+}
+.kyc-started-details-edit-left{
+	margin-bottom:10px;
+	width:100%;
+}
+.kyc-started-user-details-edit {
+    /* align-items: center; */
+    width: 214px;
+}
+.number-edit-txt{
+	margin-top:10px;
+}
+}
+@media (max-width: 767px){
+.kyc-started-details-left {
+    width: 35%;
+}
+
+}
+@media (max-width: 480px){
+.kyc-started-user-details ul li{
+    justify-content: space-between;
+}
+.kyc-started-ac-info ul li div {
+    width: 43%;
+}
+.pro-save span,.kyc-started-go-sub-cls span {
+    display: inline-block;
+}
+.kyc-started-btnLightBlack .btn {
+    margin-bottom: 20px;
+}
+.kyc-started-user-details-edit {
+    flex-direction: column;
+	align-items:flex-start;
+}
+.kyc-started-user-details-edit,.kyc-started-user-details-edit input, .kyc-started-user-details-edit select,.user-no-edit{
+	width:100%;
+	margin-right:0!important
+}
+}

@@ -1,0 +1,140 @@
+/*apply kyc/aml*/
+.kyc-aml-kyc-process {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.kyc-aml-circlesteps {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #424242;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+.kyc-aml-circlesteps img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.kyc-aml-circlesteps::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 80px;
+  width: 185px;
+  height: 9px;
+  background: #424242;
+  z-index: 1;
+}
+.kyc-aml-kyc-nobefore::before {
+  height: 0;
+}
+.kyc-aml-beforeline {
+  display: inline-block;
+  width: 13.38%;
+}
+.kyc-aml-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #616161;
+  width: 100%;
+  margin-top: 18px;
+}
+.kyc-aml-lh60 {
+  height: 90px;
+  line-height: 60px;
+  text-align: center;
+}
+.kyc-aml-card-main {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 16px;
+}
+.pt-40 {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.kyc-aml-heading1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #676d8f;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+.kyc-aml-subh1 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #676d8f;
+  max-width: 894px;
+  margin-right: 30px;
+}
+.kyc-left-img {
+  margin-top: 10px;
+}
+.kyc-aml-re {
+  margin-top: 27px;
+}
+.kyc-aml-re ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.kyc-aml-re ul li {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #676d8f;
+  display: flex;
+}
+.kyc-aml-re ul li span {
+  color: #ff881e;
+  margin-right: 5px;
+}
+.kyc-aml-kyc-requirement {
+  margin-top: 15px;
+}
+
+.kyc-aml-kyc-requirement ul li {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #676d8f;
+  margin-bottom: 16px;
+  display: flex;
+}
+.kyc-aml-kyc-requirement ul li span {
+  color: #ff881e;
+  margin-right: 24px;
+}
+.kyc-aml-kyc-continue-btn {
+  background: #424242;
+  border-radius: 3px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 2.35846px;
+  color: #ffffff;
+  height: 50px;
+  max-width: 219px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kyc-aml-kyc-continue-btn:hover {
+  color: #eeeeee;
+}
+/*end*/

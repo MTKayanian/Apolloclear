@@ -1,0 +1,105 @@
+
+/*KYC required document*/
+.kyc-requireddoc-required-doc-bg{
+	background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+    padding: 40px 24px 40px 24px;
+    max-width: 886px;
+    width: 100%;
+}
+.kyc-requireddoc-kyc-req-doc {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+}
+.kyc-requireddoc-req-doc-left h3{
+	font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #616161;
+    margin-bottom: 8px;
+}
+.kyc-requireddoc-req-doc-left{
+	margin-top:20px;
+}
+.kyc-requireddoc-req-doc-left p{
+	font-weight: bold;
+    font-size: 14px;
+    line-height: 170.23%;
+    color: #585858;
+	margin-bottom: 32px;
+
+}
+.kyc-requireddoc-req-doc-left ul li{
+	    font-weight: bold;
+    font-size: 14px;
+    line-height: 170.23%;
+    color: #585858;
+	margin-bottom:8px;
+}
+.kyc-requireddoc-instruction {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #7C8495;
+	margin-top:8px;
+	max-width: 700px;
+    width: 100%;
+	margin-bottom:8px;
+}
+.kyc-requireddoc-instruction span{
+	color: #FF881E;
+}
+.kyc-requireddoc-ins-cls{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	color: #EB5757;
+}
+.kyc-requireddoc-kyc-bck-btn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+	margin-top: 300px;
+}
+.kyc-requireddoc-kyc-bck-btn span a {
+    color: #424242;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.kyc-doc-continue-btn{
+    background: #fff;
+	border: 2px solid #C6C9C8;
+	box-shadow: 0px 2px 5px rgba(83, 97, 255, 0.0534986);
+	border-radius: 4px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 2.35846px;
+    color: #C6C9C8;
+    max-width: 219px;
+    width: 100%;
+    height: 50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.kyc-doc-continue-btn:hover{
+	background: #424242;
+	border: 2px solid #424242;
+	color: #FFFFFF;
+}
+/*end*/
+
+@media (max-width: 480px){
+	.kyc-requireddoc-kyc-bck-btn{
+		    justify-content: center;
+	}
+	.kyc-doc-continue-btn{
+		    margin-top: 20px;
+	}
+}
